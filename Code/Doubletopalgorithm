@@ -1,0 +1,26 @@
+Def identify_w(series)
+#Return data frame(p1, p2, p3, p4, p5) # local_max1, local_min1, neck, local_max1, local_max2
+Def identify_m(series)
+#Return data frame
+
+Def calculate_local_min_max(data frame, col_name):
+#calculate the local minima / maxima
+#append new col “local_min_max” to the data frame using min/max
+#return dataframe
+
+Def main_method()
+#load the list of tickers - input
+#for each ticker
+    ## identify W
+    #load data into df
+    #calculate local minima and maxima on Close column - call calculate_local_min_max(df, ‘Low’)
+    #filter df to local_min_max_df data from df[‘local_min_max’] that DOES NOT contain NaN/Empty
+    #iterate thru local_min_max_df
+        #check if current item is local_maxima
+            #if W condition to current_item, +1, +2, +3, +4 is TRUE
+                #add current_item to results_w_df
+
+#same steps for M data frame
+
+#merge both results_w_df and results_m_df into results_df
+    #sort by Date
