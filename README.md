@@ -1,2 +1,2 @@
 # Pattern-Recognition-in-stocks
-recognizing double top and bottom patterns as well as profit and loss
+Recognizing double top and double bottom patterns as well as profit and loss in the stock and as well as in multiple stocks
